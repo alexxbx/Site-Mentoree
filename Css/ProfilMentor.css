@@ -1,0 +1,1111 @@
+@font-face{
+    font-family: 'CustomFont';
+    src: url(/Users/boiseauxalexandre/Site-Mentoree/Fonts/Gilroy-SemiBold.ttf)
+}
+
+@font-face{
+    font-family: 'CustomFont2';
+    src: url(/Users/boiseauxalexandre/Site-Mentoree/Fonts/HelveticaNeueLight.ttf);
+}
+
+@font-face{
+    font-family: 'CustomFont3';
+    src: url(/Users/boiseauxalexandre/Site-Mentoree/Fonts/Gilroy-Regular.ttf);
+}
+
+
+
+header{
+    
+    width: 1280px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+     
+}
+
+a.button{
+margin: 5px;
+}
+
+.Intro{
+
+height: 92px;
+left: 14.84%;
+right: 14.92%;
+top: 132px;
+padding: 70px;
+font-family: Helvetica;
+
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 46px;
+text-align: center;
+font-feature-settings: 'liga' off, 'kern' off
+
+}
+
+
+
+img{
+    height:20px;
+    width: 20px;
+    float:left;
+    margin:1px
+}
+
+.searchbar{
+left: 3.91%;
+right: 49.14%;
+top: 0%;
+bottom: 2%;
+
+border-radius: 0px;
+width: 500px;
+height: 40px;
+}
+
+img.Mentoreelogo{
+height: 40px;
+width: 30px;
+}
+
+.nav{
+    float:right;
+}
+
+.profil{
+    position: absolute;
+width: 360px;
+height: 770px;
+left: 40px;
+top: 90px;
+background-color: white;
+
+}
+
+.recrutement{
+    position: absolute;
+    width: 312px;
+    height: 63px;
+    left: 24px;
+    top: 683px;
+    
+}
+
+.Recrutement{
+    position: absolute;
+    left: -1.33%;
+    right: 6.67%;
+    top: -44.3%;
+    bottom: 8.96%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'liga' off, 'kern' off;
+
+color: #000000;
+
+}
+
+.entreprise{
+    height: 35px;
+width: 236px;
+left: 24px;
+top: 711px;
+border-radius: 300px;
+
+}
+
+
+
+.Mentorat{
+    position: absolute;
+    width: 312px;
+    height: 63px;
+    left: 24px;
+    top: 596px;
+    
+}
+
+.mentorat{
+    position: absolute;
+    left: -0.33%;
+    right: 6.67%;
+    top: -50.6%;
+    bottom: 20.26%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'liga' off, 'kern' off;
+    color: #000000;
+}
+
+.mentore{
+    height: 35px;
+    width: 188px;
+    left: 24px;
+    top: 624px;
+    border-radius: 300px;
+}
+
+.mode{
+    position: absolute;
+left: 6.67%;
+right: 9.72%;
+top: 65.97%;
+bottom: 25.71%;
+
+}
+
+.conseil{
+    height: 130px;
+width: 315px;
+left: 24px;
+top: 354px;
+border-radius: 5px;
+
+}
+
+.Conseil{
+    position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 50.91%;
+bottom: 37.14%;
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+height: 92px;
+width: 312px;
+
+border-radius: 5px;
+
+}
+
+.conseil2{
+    position: absolute;
+left: 6.67%;
+right: 5.83%;
+top: 45.97%;
+bottom: 49.74%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+
+}
+
+.name{
+    position: absolute;
+    left: 6.67%;
+    right: 6.67%;
+    top: 27.79%;
+    bottom: 66.23%;
+    Width:312px;
+Height:46px;
+    
+
+}
+
+.Prenom{
+    position: absolute;
+left: 10%;
+right: 53.61%;
+top: 29.35%;
+bottom: 67.79%;
+
+font-family: Gilroy-SemiBold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+height: 22px;
+
+/* Black */
+
+color: #000000;
+
+/* Off Fill */
+
+border: 0.5625px solid #D9D9D9;
+}
+
+.Nom{
+    position: absolute;
+left: 53.33%;
+right: 10.28%;
+top: 29.35%;
+bottom: 67.79%;
+
+font-family: Gilroy-SemiBold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+height: 22px;
+
+/* Black */
+
+color: #000000;
+
+/* Off Fill */
+
+border: 0.5625px solid #D9D9D9;
+
+}
+
+.droite{
+    position: absolute;
+width: 800px;
+height: 512px;
+left: 440px;
+top: 90px;
+background-color: white;
+
+}
+
+html{
+    background-color: #F5F5F5;
+}
+
+.position{
+    position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 36.88%;
+bottom: 57.14%;
+
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+}
+
+.Position{
+    position: absolute;
+left: 10%;
+right: 53.61%;
+top: 38.44%;
+bottom: 58.7%;
+
+font-family: Gilroy-Regular;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+/* Black */
+
+color: #000000;
+
+/* Off Fill */
+
+border: 0.5625px solid #D9D9D9;
+}
+
+.Employeur{
+    position: absolute;
+left: 53.33%;
+right: 10.28%;
+top: 38.44%;
+bottom: 58.7%;
+
+font-family: Gilroy-Regular;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+/* Black */
+
+color: #000000;
+
+/* Off Fill */
+
+border: 0.5625px solid #D9D9D9;
+}
+
+.parametre{
+    position: absolute;
+height: 19px;
+left: 3%;
+right: 12%;
+top: 70px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+}
+
+.bouton{
+    
+position: absolute;
+width: 221px;
+height: 17px;
+left: 24px;
+top: 99px;
+display: flex;
+}
+
+.entretien{
+    position: absolute;
+left: 3%;
+right: 6.25%;
+top: 37.3%;
+bottom: 58.98%;
+
+font-family: Helvetica Neue;
+font-style: italic;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Primary Grey */
+
+color: #595959;
+
+}
+
+.blocs{
+    position: absolute;
+    width: 756px;
+    height: 247.48px;
+    left: 24px;
+    top: 160px;
+
+}
+
+.employeur{
+    position: absolute;
+left: 3%;
+right: 75.25%;
+top: 46.88%;
+bottom: 49.41%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+/* Light Dark */
+
+color: #262626;
+
+}
+
+.Poste{
+    position: absolute;
+left: 27.25%;
+right: 51%;
+top: 46.88%;
+bottom: 49.41%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+/* Light Dark */
+
+color: #262626;
+
+}
+
+.Pays{
+    position: absolute;
+left: 51.5%;
+right: 26.75%;
+top: 46.88%;
+bottom: 49.41%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+/* Light Dark */
+
+color: #262626;
+
+}
+
+.Année{
+    position: absolute;
+left: 75.75%;
+right: 2.5%;
+top: 46.88%;
+bottom: 49.41%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+/* Light Dark */
+
+color: #262626;
+
+}
+
+.area1{
+
+position: absolute;
+left: 3%;
+right: 75.25%;
+top: 52.58%;
+bottom: 40.58%;
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+}
+
+.area2{
+    position: absolute;
+left: 27.25%;
+right: 51%;
+top: 52.58%;
+bottom: 40.58%;
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+}
+
+.area3{
+    position: absolute;
+left: 51.5%;
+right: 26.75%;
+top: 52.58%;
+bottom: 40.58%;
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+}
+
+.area4{
+    position: absolute;
+    left: 75.75%;
+    right: 2.5%;
+    top: 52.54%;
+    bottom: 40.66%;
+    
+    background: #FFFFFF;
+    /* Off Fill */
+    
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.ProfilCard{
+    position: absolute;
+    width: 756px;
+    height: 163.25px;
+    left: 2px;
+    top: 161.23px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    height: 141px;
+width: 174px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+background-color:rgba(88, 144, 194, 0.08);
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+}
+
+.Textbox1{
+    position: absolute;
+left: 3.97%;
+right: 81.08%;
+top: 41.04%;
+bottom: 38.13%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary Grey */
+
+color: #595959;
+
+}
+
+.box2{
+    height: 141px;
+width: 174px;
+left: 194px;
+top: 0px;
+border-radius: 10px;
+background-color:rgba(88, 144, 194, 0.08);
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+}
+
+.Textbox2{
+    position: absolute;
+left: 29.63%;
+right: 55.42%;
+top: 41.04%;
+bottom: 38.13%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary Grey */
+
+color: #595959;
+
+}
+
+.box3{
+    height: 141px;
+    width: 174px;
+    left: 388px;
+    top: 0px;
+    border-radius: 10px;
+    background-color:rgba(88, 144, 194, 0.08);
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+
+}
+
+.Textbox3{
+    position: absolute;
+left: 55.29%;
+right: 29.76%;
+top: 41.04%;
+bottom: 38.13%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary Grey */
+
+color: #595959;
+
+}
+
+
+.box4{
+    height: 141px;
+    width: 174px;
+    left: 582px;
+    top: 0px;
+    border-radius: 10px;
+    background-color:rgba(88, 144, 194, 0.08);
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+}
+
+.Textbox4{
+    position: absolute;
+left: 80.95%;
+right: 4.1%;
+top: 41.04%;
+bottom: 38.13%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary Grey */
+
+color: #595959;
+
+}
+
+.Modifier{
+    position: absolute;
+left: 7.8%;
+right: 84.79%;
+top: 64.93%;
+bottom: 22.82%;
+
+/* White */
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 300px;
+}
+
+.Modifier2{
+    position: absolute;
+left: 33.47%;
+right: 59.13%;
+top: 64.93%;
+bottom: 22.82%;
+
+/* White */
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 300px;
+}
+
+.Modifier3{
+    position: absolute;
+left: 59.13%;
+right: 33.47%;
+top: 64.93%;
+bottom: 22.82%;
+
+/* White */
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 300px;
+}
+
+.Modifier4{
+    position: absolute;
+left: 84.79%;
+right: 7.8%;
+top: 64.93%;
+bottom: 22.82%;
+
+/* White */
+
+background: #FFFFFF;
+/* Off Fill */
+
+border: 1px solid #D9D9D9;
+border-radius: 300px;
+}
+
+.modif{
+  
+left: 33.47%;
+right: 59.15%;
+top: 66.77%;
+bottom: 24.66%;
+
+font-family: Helvetica Neue;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Border grey */
+
+color: #A6A6A6;
+}
+
+.tableau{
+    position: absolute;
+width: 360px;
+height: 732px;
+left: 40px;
+top: 900px;
+background: rgba(255, 255, 255, 0.7);
+border: 1px solid #E6E6E6;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.Tableau{
+    position: absolute;
+left: 6.67%;
+right: 23.89%;
+top: 4.1%;
+bottom: 92.49%;
+
+font-family: Gilroy-SemiBold;
+font-size: 20px;
+line-height: 23px;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+
+}
+
+.Stats{
+
+    position: absolute;
+    left: 6.67%;
+    right: 6.76%;
+    top: 10.79%;
+    bottom: 80.05%;
+    
+    background: #FFFFFF;
+    /* shadow - 1/4 */
+    
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+}
+
+.Vues{
+
+position: absolute;
+left: 6.67%;
+right: 64.48%;
+top: 12.84%;
+bottom: 82.08%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Light Dark */
+
+color: #262626;
+}
+
+.Fans{
+    position: absolute;
+left: 35.43%;
+right: 35.71%;
+top: 12.84%;
+bottom: 82.08%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Light Dark */
+
+color: #262626;
+
+}
+
+.Fav{
+    position: absolute;
+left: 64.48%;
+right: 6.67%;
+top: 12.84%;
+bottom: 82.08%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Light Dark */
+
+color: #262626;
+
+}
+
+.profillvl{
+    position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 23.22%;
+bottom: 69.3%;
+
+}
+
+.Lvl{
+    position: absolute;
+left: 0%;
+right: 3.53%;
+top: 0%;
+bottom: 65.13%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+
+}
+
+.Etapes{
+    position: absolute;
+    left: 6.67%;
+    right: 6.67%;
+    top: 37.98%;
+    bottom: 35.52%;
+    height: 194px;
+width: 312px;
+
+border-radius: 10px;
+
+    background: #FFFFFF;
+    /* shadow - 1/4 */
+    
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+}
+
+.Etapeconseil{
+    position: absolute;
+left: 6.67%;
+right: 9.72%;
+top: 33.96%;
+bottom: 63.43%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+
+}
+
+.box5{
+
+left: 10.83%;
+right: 10.83%;
+top: 40.07%;
+bottom: 53.26%;
+
+}
+
+.box6{
+
+
+left: 10.83%;
+right: 10.83%;
+top: 48.87%;
+bottom: 44.39%;
+
+}
+
+.box7{
+   
+left: 10.83%;
+right: 10.83%;
+top: 57.68%;
+bottom: 37.59%;
+
+}
+
+.boxmentor{
+    position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 71.86%;
+bottom: 19.4%;
+
+background: #FFFFFF;
+/* shadow - 1/4 */
+
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+}
+
+.mentores{
+    position: absolute;
+width: 312px;
+height: 93.49px;
+left: 24px;
+top: 496.61px;
+
+}
+
+.Arthur{
+    position: absolute;
+left: 23.41%;
+right: 8.89%;
+top: 73.95%;
+bottom: 21.32%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+/* Primary Grey */
+
+color: #595959;
+
+}
+
+.Mentor1{
+    position: absolute;
+left: 6.67%;
+right: 9.72%;
+top: 67.84%;
+bottom: 29.55%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+
+}
+
+.pageEntreprise{
+    position: absolute;
+left: 6.67%;
+right: 9.72%;
+top: 83.96%;
+bottom: 13.43%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+font-feature-settings: 'liga' off, 'kern' off;
+
+/* Black */
+
+color: #000000;
+
+}
+
+.Google{
+    position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 87.98%;
+bottom: 3.28%;
+
+background: #FFFFFF;
+/* shadow - 1/4 */
+
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+}
+
+.google{
+    position: absolute;
+left: 23.41%;
+right: 8.89%;
+top: 90.07%;
+bottom: 5.2%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+/* Primary Grey */
+
+color: #595959;
+
+}

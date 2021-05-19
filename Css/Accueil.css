@@ -1,0 +1,202 @@
+header{
+    
+    width: 1280px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+     
+}
+
+a.button{
+margin: 5px;
+}
+
+.Intro{
+
+height: 92px;
+left: 14.84%;
+right: 14.92%;
+top: 132px;
+padding: 70px;
+font-family: 'CustomFont2';
+
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 46px;
+text-align: center;
+font-feature-settings: 'liga' off, 'kern' off
+
+}
+
+.container{
+justify-content: space-around;
+display: flex;
+height: 306px;
+left: 160px;
+top: 284px;
+box-sizing: border-box;
+
+
+padding: 0 5px;
+margin: 40px;
+
+}
+
+footer{
+bottom: 0;
+text-align: center;
+width: 1280px;
+height: 49px;
+left: 0px;
+top: 671px;
+
+}
+
+img{
+    height:20px;
+    width: 20px;
+    float:left;
+    margin:1px
+}
+
+.searchbar{
+left: 3.91%;
+right: 49.14%;
+top: 0%;
+bottom: 2%;
+
+border-radius: 0px;
+width: 500px;
+height: 40px;
+}
+
+img.Mentoreelogo{
+height: 40px;
+width: 30px;
+}
+
+.box3{
+    border: 1px solid #000;
+    border-radius: 25px;
+    width: 280px;
+height: 306px;
+}
+
+.box2{
+    border: 1px solid #000;
+    border-radius: 25px;
+    width: 280px;
+height: 306px;
+}
+
+.box1{
+    border: 1px solid #000;
+    border-radius: 25px;
+    width: 280px;
+height: 306px;
+}
+
+img.Entreprise{
+    margin-left: 60px;
+    width: 160px;
+    height: 120px;
+
+}
+
+img.Mentor{
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 200px;
+    height: 120px;
+
+}
+
+img.Mentoré{
+    margin-left: 60px;
+    margin-right: 30px;
+    width: 120px;
+    height: 120px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+.nav{
+    float:right;
+}
+
+.accueillogo{
+    float: right;
+}
+
+.nav{
+    float:right;
+}
+
+.accueillogo{
+    float: right;
+}
+
+button.login{
+margin-left: 650px;
+width: 161px;
+height: 59px;
+border-radius: 25px;
+background-color: white;
+}
+
+@font-face{
+    font-family: 'CustomFont';
+    src: url(/Users/boiseauxalexandre/Site-Mentoree/Fonts/Gilroy-SemiBold.ttf)
+}
+
+@font-face{
+    font-family: 'CustomFont2';
+    src: url(/Users/boiseauxalexandre/Site-Mentoree/Fonts/HelveticaNeueLight.ttf);
+}
+
+text.accueil{
+    position: absolute;
+    left: 80%;
+    right: 50%;
+    top: -1%;
+    bottom: 90%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'kern' off;
+    color: #000000;
+    width: 100px;
+
+}
+
+text.connexion{
+    position: absolute;
+    left: 90%;
+    right: 0%;
+    top: -1%;
+    bottom: 90%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'kern' off;
+    color: #000000;
+}
