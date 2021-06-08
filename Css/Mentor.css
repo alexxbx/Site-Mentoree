@@ -60,7 +60,7 @@ right: 49.14%;
 top: 0%;
 bottom: 2%;
 
-border-radius: 0px;
+border-radius: 300px;
 width: 500px;
 height: 40px;
 }
@@ -71,37 +71,7 @@ width: 30px;
 }
 
 
-h2{
-    text-align: center;
-    color: white;
-    position: absolute;
-    height: 93px;
-    left: 25%;
-    top: 20px;
-    font-family: 'CustomFont';
-    font-size: 25px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 500px;
-}
 
-p{
-    color: white;
-    margin-bottom: 60px;
-    position: absolute;
-    width: 307px;
-    height: 192px;
-    left: 70px;
-    top: 125px;
-    font-family: 'CustomFont2';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-}
 
 
 .nav{
@@ -1155,4 +1125,331 @@ text.connexion{
     text-align: center;
     font-feature-settings: 'liga' off, 'kern' off;
     color: #000000;
+}
+
+.footer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 553.67%;
+    bottom: 38.65%;
+    background-color: linear-gradient(107.56deg, #FFFFFF 0%, #F5F5F5 100%);
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    text-align: center;
+    }
+
+    text.accueil{
+        position: absolute;
+        left: 80%;
+        right: 50%;
+        top: -1%;
+        bottom: 90%;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-feature-settings: 'liga' off, 'kern' off;
+        color: #000000;
+        width: 100px;
+    
+    }
+    
+    text.connexion{
+        position: absolute;
+        left: 90%;
+        right: 0%;
+        top: -1%;
+        bottom: 90%;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-feature-settings: 'liga' off, 'kern' off;
+        color: #000000;
+    }
+
+    .footer2{
+        position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 562%;
+    bottom: 0%;
+    background-color: #262626;
+    text-align: center;
+    height: 113px;
+    width: 100%;
+
+
+    }
+
+.propos{
+    position: absolute;
+    top: 5%;
+    left: 15px;
+    color: white;
+}
+
+.content{
+color: white;
+}
+
+.vous{
+    position: absolute;
+    color: white;
+    right: 15px;
+    top: 5%;
+}
+
+.logo{
+    position: absolute;
+    width: 329px;
+    height: 49px;
+    left: 16px;
+    top: 38px;
+    display: flex;
+    text-align: center;
+}
+
+.mission{
+    left: 1.25%;
+    right: 92.27%;
+    top: -137.75%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Contact{
+   
+    left: 8.98%;
+    right: 83.75%;
+    top: 79.75%;
+    bottom: 9.82%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.FAQ{
+    
+    left: 17.97%;
+    right: 80%;
+    top: 79.75%;
+    bottom: 9.82%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Aide{
+    
+    left: 21.8%;
+    right: 73.05%;
+    top: 79.75%;
+    bottom: 9.82%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.logo1{
+    
+    width: 10px;
+    height: 49px;
+    margin-right: 50px;
+
+}
+
+.logo2{
+   
+    width: 10px;
+    height: 49px;
+    margin-right: 60px;
+}
+
+.logo3{
+ 
+    width: 10px;
+    height: 49px;
+    margin-right: 40px;
+
+}
+
+.logo4{
+
+
+    width: 10px;
+    height: 49px;
+}
+
+.vous2{
+    position: absolute;
+    width: 197px;
+    height: 53px;
+    left: 86%;
+    top: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vous3{
+    width: 50px;
+    height: 53px;
+   
+}
+
+.vous4{
+    width: 50px;
+    height: 53px;
+
+}
+
+.vous5{
+    width: 61px;
+height: 53px;
+}
+
+.entreprises{
+    left: 93.98%;
+    right: 1.25%;
+    top: 79.75%;
+    bottom: 9.82%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mentore{
+    left: 88.83%;
+    right: 7.27%;
+    top: 79.75%;
+    bottom: 9.82%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mentor{
+    left: 83.36%;
+    right: 12.42%;
+    top: 79.75%;
+    bottom: 9.82%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+img.Mentor{
+    left: 83.52%;
+    right: 12.58%;
+    top: 57.67%;
+    bottom: 13.85%;
+    width: 50px;
+    height: 46px;
+}
+
+img.Mentore{
+    left: 88.83%;
+    right: 7.27%;
+    top: 57.67%;
+    bottom: 13.85%;
+    width: 50px;
+    height: 46px;
+}
+
+img.Entreprise{
+    left: 94.38%;
+    right: 1.72%;
+    top: 57.67%;
+    bottom: 13.85%;
+    width: 50px;
+    height: 46px;
+}
+
+.langue{
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+
+.textrond{
+    position: absolute;
+    height: 93px;
+    left: 29.53%;
+    right: 39.61%;
+    top: 9%;
+    width: 100%;
+    font-family: Gilroy-SemiBold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textrond1{
+    position: absolute;
+    width: 307px;
+    height: 192px;
+    left: 79px;
+    top: 40%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
 }

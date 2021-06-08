@@ -35,7 +35,8 @@ img{
     height:20px;
     width: 20px;
     float:left;
-    margin:1px
+    margin:1px;
+    
 }
 
 .searchbar{
@@ -44,7 +45,7 @@ right: 49.14%;
 top: 0%;
 bottom: 2%;
 
-border-radius: 0px;
+border-radius: 300px;
 width: 500px;
 height: 40px;
 }
@@ -1106,12 +1107,12 @@ width: 396px;
         position: absolute;
         left: 0%;
         right: 0%;
-        top: 300%;
+        top: 285%;
         bottom: 0%;
         background-color: #262626;
         text-align: center;
         height: 113px;
-width: 100%;
+        width: 100%;
 
 
     }

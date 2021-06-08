@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/Users/boiseauxalexandre/Site-Mentoree/Css/Mentor.css">
+    <link rel="stylesheet" href="/Css/Mentor.css">
 
 
     <header>
-        <a href="#"><img class="Mentoreelogo" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Mentoree.svg"
+        <a href="#"><img class="Mentoreelogo" src="/Img/Mentoree.svg"
                 alt="Mentoree logo"></a>
         <input class="searchbar" type="text" placeholder="Employeur, poste, pays ...">
         <div class="nav">
-            <a class="button" href="#" title="Accueil"><text class="accueil">🏠 Accueil</text></a>
-            <a class="button" href="#" title="Connect"><img class="accueillogo"
-                    src="/Users/boiseauxalexandre/Site-Mentoree/Img/Asset-logo-mentoree-V2 14.png"><text class="connexion">S'inscrire</text></a>
+            <a class="button" href="Accueil.php" title="Accueil"><text class="accueil">🏠 Accueil</text></a>
+            <a class="button" href="#" title="Connect"><img class="accueillogo" src="/Img/Asset-logo-mentoree-V2 14.png"><text class="connexion">S'inscrire</text></a>
         </div>
     </header>
 </head>
@@ -32,17 +31,17 @@
         <span style="color: #D16860;">outils de mentorat</span>
     </div>
     <button class="login" href="#"><text class="inscription">S'inscrire</text></button>
-    <img class="pagementor" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Iconography - Mentor.png">
-    <img class="background" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Galaxy image.png">
-    <img class="background2" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Blue shadow.svg">
+    <img class="pagementor" src="/Img/Iconography - Mentor.png">
+    <img class="background" src="/Img/Galaxy image.png">
+    <img class="background2" src="/Img/Blue shadow.svg">
     <div class="text">Pourquoi devenir mentor ?</div>
     <div class="rond">
-        <h2>🔥 Aidez les jeunes à<br> vivre une carrière<br> épanouissante</h2> <br><br>
-        <p>Plus de 80% des français ont envie<br> de changer de métier... Aidez les à<br> s’inspirer et à comprendre par
+        <text class='textrond'>🔥 Aidez les jeunes à<br> vivre une carrière<br> épanouissante</text>
+        <text class='textrond1'>Plus de 80% des français ont envie<br> de changer de métier... Aidez les à<br> s’inspirer et à comprendre par
             où<br> commencer en partageant votre<br> expérience à l’aide de modules<br> thématiques. Contribuez ainsi
-            à<br> une insertion plus inclusive tout en<br> élargissant votre réseau.</p>
+            à<br> une insertion plus inclusive tout en<br> élargissant votre réseau.</text>
     </div>
-    <img class="ligne" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Vector.png">
+    <img class="ligne" src="/Img/Vector.png">
     <div class="rond2">
         <text class="textrond2">🔒 Débloquez des<br> outils pour mieux<br> mentorer vos employés</text>
         <text class="textrond22">Vous n’avez pas le temps de<br> former vos employés débutants ?<br> Vous aimeriez des résultats et ils<br> ont besoin d’apprendre ? Créez un programme de<br> mentorat à l’aide de nos outils d’encadrement afin de<br> faire monter en compétences vos<br> employés plus rapidement !</text>
@@ -54,62 +53,62 @@
     </div>
     <div class="container">
         <div class="box1">
-        <img class="clé" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🔑.png">
+        <img class="clé" src="/Img/🔑.png">
         <text class="textbox1"> Comment décrocher un poste similaire (55)</text>   
         </div> 
         <div class="box2">
-        <img class="punaise" src="/Users/boiseauxalexandre/Site-Mentoree/Img/📌.png">
+        <img class="punaise" src="/Img/📌.png">
         <text class="textbox2">  Compétences<br> requises (55)</text>  
         </div>
         <div class="box3">
-        <img class="chapeau" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🎓.png">
+        <img class="chapeau" src="/Img/🎓.png">
         <text class="textbox3">Expérience de travail et éducation (32)</text>    
         </div>
         <div class="box4">
-        <img class="singe" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🙊.png">
+        <img class="singe" src="/Img/🙊.png">
          <text class="textbox4">Questions d’entretien et témoignages (32)</text>   
         </div>
     </div>
     <div class="container2">
         <div class="box5">
         <text class="textbox5">Formation mentorat<br> et guides d’entretien</text>
-        <img class="elephant" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🐘.png">
+        <img class="elephant" src="/Img/🐘.png">
         </div>
         <div class="box6">
-        <img class="livre" src="/Users/boiseauxalexandre/Site-Mentoree/Img/📖.png">
+        <img class="livre" src="/Img/📖.png">
         <text class="textbox6">Base de savoir<br>d’onboarding</text> 
         </div>
         <div class="box7">
         <text class="textbox7">Quiz<br> d’introspection🔒</text>
-        <img class="hibou" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🦉.png">
+        <img class="hibou" src="/Img/🦉.png">
         </div>
         <div class="box8">
         <text class="textbox8">Arbre de<br> compétences 🔒</text>
-        <img class="arbre" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🌲.png">
+        <img class="arbre" src="/Img/🌲.png">
 
         </div>
     </div>
     <div class="container3">
         <div class="box9">
             <text class="textbox9">Pourquoi ils<br> ont postulé</text>
-            <img class="feu" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🔥.png">
+            <img class="feu" src="/Img/🔥.png">
         </div>
         <div class="box10">
             <text class="textbox10">Réussites</text>
-            <img class="coupe" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🏆.png">
+            <img class="coupe" src="/Img/🏆.png">
         </div>
         <div class="box11">
             <text class="textbox11">Compétences</text>
-            <img class="marteau" src="/Users/boiseauxalexandre/Site-Mentoree/Img/🛠.png">
+            <img class="marteau" src="/Img/🛠.png">
         </div>
         <div class="box12">
             <text class="textbox12">Expérience et<br> éducation</text>
-            <img class="malette" src="/Users/boiseauxalexandre/Site-Mentoree/Img/💼.png">
+            <img class="malette" src="/Img/💼.png">
         </div>
     </div>
     <text class="Comment">Comment ça marche</text>
     <div class="rectangle">
-        <img class="background3" src="/Users/boiseauxalexandre/Site-Mentoree/Img/image 1821.png">
+        <img class="background3" src="/Img/image 1821.png">
         <div class="container4">
             <div class="box13">
             <text class="textbox13">Créez un profil pour y partager vos conseils</text>
@@ -123,24 +122,75 @@
             <text class="textbox15">Évaluez et mentorez<br> vos candidats</text>
             <text class="textbox155">Prenez rapidement une décision à l’aide d’un comparatif analytique des candidats et alimenter votre programme de formation interne avec nos outils de mentorat gratuits !</text>    
             </div>
-            <img class="vector1" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Vector (1).png">
-            <img class="vector2" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Vector (2).png">
+            <img class="vector1" src="/Img/Vector (1).png">
+            <img class="vector2" src="/Img/Vector (2).png">
             <text class="CV">Les CVs à la une !</text>
 
     </div>
     <div class="rectangle2">
         <text class="Join">Rejoignez les entreprises qui nous ont fait confiance :</text>
         <div class="entreprise">
-            <img class="Google" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Google.png">
-            <img class="Microsoft" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Microsoft logo.png">
-            <img class="McKinsey" src="/Users/boiseauxalexandre/Site-Mentoree/Img/McKinsey logo.png">
-            <img class="Deloitte" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Deloitte.png">
-            <img class="Schoolab" src="/Users/boiseauxalexandre/Site-Mentoree/Img/Schoolab.png">
-            <img class="HSBC" src="/Users/boiseauxalexandre/Site-Mentoree/Img/HSBC.png">
+            <img class="Google" src="/Img/Google.png">
+            <img class="Microsoft" src="/Img/Microsoft logo.png">
+            <img class="McKinsey" src="/Img/McKinsey logo.png">
+            <img class="Deloitte" src="/Img/Deloitte.png">
+            <img class="Schoolab" src="/Img/Schoolab.png">
+            <img class="HSBC" src="/Img/HSBC.png">
         </div>
         <button class="stage"><text class="stagiaire">Trouver un stagiaire passionné</text></button>
         </div>
     </div>
+    <div class="footer">
+        <a href="#"><img src="/Img/linkedin.svg" alt="Linkedin logo"></a>
+        <a href="#"><img src="/Img/instagram.png" alt="Instagram logo"></a>
+        <a href="#"><img src="/Img/facebook.png" alt="facebook logo"></a>
+        <a href="#"><img src="/Img/tiktok.png" alt="tiktok logo"></a>
+        <a href="#"><img src="/Img/discord.png" alt="discord logo"></a>
+        <p>© Copyright 2021 - Tous droits réservés</p>
+        <text class="langue">FR EN</text>
+    </div>
+    <div class="footer2">
+        <p><text class="content">team@mentoree.fr • (+33) 6 66 40 46 42 • Puteaux, France <br><br>
+                Confidentialité • Conditions d’utilisation • Mentions légales</text></p>
+        <text class="propos">À propos</text>
+        <text class="vous">Vous êtes</text>
+        <div class="logo">
+            <div class="logo1">
+                <img class="cible" src="/Img/🎯.png">
+                <text class="mission">Notre mission</text>
+            </div>
+            <div class="logo2">
+                <img class="bulle" src="/Img/💬.png">
+                <text class="Contact">Nous contacter</text>
+            </div>
+            <div class="logo3">
+                <img class="point" src="/Img/❔.png">
+                <text class="FAQ">FAQ</text>
+            </div>
+            <div class="logo4">
+                <img class="mains" src="/Img/🙏.png">
+                <text class="Aide">Nous aider</text>
+            </div>
+
+        </div>
+        <div class="vous2">
+            <div class="vous3">
+            <img class="Mentor"  src="/Img/Mentor.png">
+            <a class="mentor" href="Mentor.php" >Mentor</a>
+            </div>
+            <div class="vous4">
+            <img class="Mentore"  src="/Img/Mentoré.png">
+            <a class="mentore" href="Mentore.php">Mentoré</a>
+            </div>
+            <div class="vous5">
+            <img class="Entreprise"  src="/Img/Entreprise.png">
+            <a class="entreprises" href='Entreprise.php' >Entreprise</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
 </body>
 
 </html>
