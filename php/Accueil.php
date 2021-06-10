@@ -8,20 +8,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="/Css/Accueil.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <form action="formulaireGET.php" method="get">
 </head>
 
 
 <header>
-        <a href="#"><img class="Mentoreelogo" src="Img/Mentoree.svg" alt="Mentoree logo"></a>
+<a href="#"><img class="Mentoreelogo" src="/Img/Mentoree.svg"
+                alt="Mentoree logo"></a>
         <input class="searchbar" type="text" placeholder="Employeur, poste, pays ...">
         <div class="nav">
         <a class="button" href="#" title="Accueil"><text class="accueil">🏠 Accueil</text></a>
-        <a class="button" href="#" title="Connect">  
+        <a class="button" href="#" title="Connect" data-toggle="modal" data-target="#modalContact"
+            onclick="">  
        <img class="accueillogo" src="/Img/Asset-logo-mentoree-V2 14.png" >
         <text class="connexion">S'inscrire</text></a>
     </div>
 </header>
 
+<div class="modal " id="modalContact" tabindex="-1" role="dialog" data-backdrop="static"
+     aria-labelledby="modalContactabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalContactLabel">Inscription</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!--***************FORMULAIRE DE CONTACT ******************-->
+                <form id="login-form">
+                    <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+                    <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+                    <input type="submit" value="Login" id="login-form-submit">
+                  </form>
+                <!--***************FIN FORMULAIRE DE CONTACT ******************-->
+
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <body>
@@ -70,3 +98,25 @@
 
 
 
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.js"
+        integrity="sha256-BDmtN+79VRrkfamzD16UnAoJP8zMitAz093tvZATdiE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/node_modules/wow.js/dist/wow.min.js"></script>
+<script src="assets/js/node_modules/waypoints/src/waypoint.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/side-scripts.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#modalContact').modal('show');
+    });</script>
